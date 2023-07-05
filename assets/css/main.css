@@ -1,0 +1,156 @@
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #000;
+  margin: 0;
+  padding: 1rem;
+}
+
+html {
+  background: #DDD;
+  color: #000;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1rem;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 70ch;
+  line-height: 1.5;
+}
+
+header{
+  font-size: 1.5em;
+  padding: 0.3em 1em;
+  color: #DD0B15;
+  background-color: #FFF;
+  font-weight: normal;
+}
+
+article header {
+  background-color: #F2F2F2;
+  color: #000;
+  padding: 1rem;
+  overflow: hidden;
+  position: relative;
+}
+
+article {
+  background: white;
+}
+
+footer,
+.footer {
+  font-size: 0.75rem;
+  background: #F2F2F2;
+  padding: 0.3em 1.5em;
+}
+
+iframe {
+  border: none;
+  min-height: 200vh;
+  width: 100%;
+  overflow: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.col {
+  width: 100%;
+}
+
+/*------------------------------------------------------------------
+[TABLE OF CONTENTS]
+-------------------------------------------------------------------*/
+.language-selector .main .lang {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  font-size: 0.75rem;
+  font-weight: bold;
+  justify-content: end;
+  gap: 0.5em;
+}
+
+.language-selector .main .lang .lang-item {
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+  background-color: white;
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-width: 1px;
+  border-color: transparent;
+}
+
+.language-selector .main .lang .lang-item .lang-item-text {
+  color: #58585F;
+  text-transform: capitalize;
+}
+
+.language-selector .main .lang .lang-item.active {
+  background-color: #DD0B15;
+  border-color: #DD0B15;
+}
+
+.language-selector .main .lang .lang-item.active .lang-item-text {
+  color: white;
+}
+
+.language-selector .main .lang .lang-item:hover {
+  background-color: rgba(221, 11, 21, 0.2);
+}
+
+.language-selector .main .lang .lang-item:hover .lang-item-text {
+  color: #DD0B15;
+}
+
+.language-selector a {
+  text-decoration: none;
+}
+
+.title {
+  padding: 0.5em 1.5em;
+}
+
+.content {
+  background-color: transparent;
+  padding: 0.5em 1.5em;
+}
+
+.chapeau {
+  font-weight: bold;
+}
+
+/* Hack pour présentation */
+
+article header {
+  padding-top: 1rem;
+}
+
+table {
+  border-bottom: collapse;
+  width: 100%;
+}
+
+td, th {
+  padding: .5rem;
+}
+
+a {
+  color: inherit;
+}

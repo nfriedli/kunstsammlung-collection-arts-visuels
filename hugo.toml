@@ -1,0 +1,39 @@
+baseURL = "https://strandboden.netlify.app"
+title = "Prés-de-la-Rive"
+
+languageCode = "fr"
+defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = true
+
+cleanDestinationDir = true
+disableFastRender = true
+removePathAccents = true
+
+disableKinds = [ "taxonomy", "term", "robotsTXT", "RSS", "sitemap", "404"]
+
+[markup.goldmark.parser.attribute]
+block = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[minify]
+minifyOutput = true
+
+# Configuration du français 
+[languages.fr]
+contentDir = "content/fr"
+languageName = "Français"
+weight = 10
+
+title = "Collection des arts visuels"
+footer = "Un projet de la [Ville de Bienne](https://www.biel-bienne.ch/)."
+
+# Configuration de l'allemand
+[languages.de]
+contentDir = "content/de"
+languageName = "Deutsch"
+weight = 20
+
+title = "Kunstsammlung"
+footer = "Ein Projekt der [Stadt Biel](https://www.biel-bienne.ch/)."
