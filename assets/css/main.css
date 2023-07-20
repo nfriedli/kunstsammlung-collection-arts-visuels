@@ -154,3 +154,19 @@ td, th {
 a {
   color: inherit;
 }
+
+dt {
+  font-weight: 700;
+  margin-top: .5rem;
+}
+
+dd {
+  margin-left: 1rem;
+}
+
+main img {
+  margin: auto;
+  height: auto;
+  width: 100%;
+  text-align: center;
+}
