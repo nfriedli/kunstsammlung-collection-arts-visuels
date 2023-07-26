@@ -28,7 +28,7 @@ weight = 10
 
 title = "Collection des arts visuels"
 footer = """Un projet de la [Ville de Bienne](https://www.biel-bienne.ch/).  
-Idée & graphisme: John-David Deubl | [strukturart.com](https://strukturart.com/) et Susanne Gafner | [www.bicorne.ch](http://www.bicorne.ch/)."""
+Idée & graphisme : John-David Deubl | [strukturart.com](https://strukturart.com/) et Susanne Gafner | [www.bicorne.ch](http://www.bicorne.ch/)."""
 
 # Configuration de l'allemand
 [languages.de]
