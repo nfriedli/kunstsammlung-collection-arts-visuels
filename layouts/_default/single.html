@@ -5,8 +5,8 @@
 <ul class="buttons">
 {{ with .Params.details }}<li><a href="{{.}}" target="_blank" rel="noopener noreferrer">détails de l'œuvre</a></li>{{ end }}
 {{ with .Params.autres }}<li><a href="{{.}}" target="_blank" rel="noopener noreferrer">autres œuvres de l'artiste</a></li>{{ end }}
-{{ with .Params.details }}<li><a href="{{.}}" target="_blank" rel="noopener noreferrer">site de l'artiste</a></li>{{ end }}
-{{ with .Params.details }}<li><a href="{{.}}" target="_blank" rel="noopener noreferrer">vidéo</a></li>{{ end }}
+{{ with .Params.site }}<li><a href="{{.}}" target="_blank" rel="noopener noreferrer">site de l'artiste</a></li>{{ end }}
+{{ with .Params.video }}<li><a href="{{.}}" target="_blank" rel="noopener noreferrer">vidéo</a></li>{{ end }}
 </ul>
 
 {{ .Content }}
