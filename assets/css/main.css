@@ -176,11 +176,18 @@ footer {
   padding-top: 1rem;
 }
 
+/* Sous titre */
+
+.subtitle {
+  padding-inline: 1rem;
+}
+
 /* Liste de boutons */
 
-ul {
+ul.buttons {
   list-style-type: none;
   margin: 0;
+  margin-block: 1rem;
   padding: 0;
 
   display: flex;
@@ -188,7 +195,7 @@ ul {
   gap: 1rem;
 }
 
-li {
+.buttons li {
   border: 1px solid #58585F;
   border-radius: .5rem;
   padding: 1rem;

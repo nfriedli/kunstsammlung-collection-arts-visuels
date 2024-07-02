@@ -29,7 +29,7 @@ weight = 10
 
 title = "Collection des arts visuels"
 [languages.fr.params]
-footer = """Un projet de la [Ville de Bienne](https://www.biel-bienne.ch/).  
+footer = """Un projet de la [Ville de Bienne](https://www.biel-bienne.ch/fr/service-culture.html/825).  
 Idée & graphisme : John-David Deubl | [strukturart.com](https://strukturart.com/) et Susanne Gafner | [www.bicorne.ch](http://www.bicorne.ch/)."""
 
 # Configuration de l'allemand
@@ -40,5 +40,5 @@ weight = 20
 
 title = "Kunstsammlung"
 [languages.de.params]
-footer = """Ein Projekt der [Stadt Biel](https://www.biel-bienne.ch/).   
+footer = """Ein Projekt der [Stadt Biel](https://www.biel-bienne.ch/de/dienststelle-fuer-kultur.html/825).   
 Idee & Grafik: John-David Deubl | [strukturart.com](https://strukturart.com/) und Susanne Gafner | [www.bicorne.ch](http://www.bicorne.ch/)."""
