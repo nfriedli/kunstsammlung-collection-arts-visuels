@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+{{ with .Params.image }}<img src="{{ . }}" alt="{{page.Title}} - {{page.Params.oeuvre}}">{{ end }}
+
+<ul class="buttons">
+{{ with .Params.details }}<li><a href="{{.}}" target="_blank" rel="noopener noreferrer">Details zum Werk</a></li>{{ end }}
+{{ with .Params.autres }}<li><a href="{{.}}" target="_blank" rel="noopener noreferrer">andere Werke des Künstlers/der Künstlerin
+</a></li>{{ end }}
+{{ with .Params.site }}<li><a href="{{.}}" target="_blank" rel="noopener noreferrer">Künstlerseite/Künstlerinseite</a></li>{{ end }}
+{{ with .Params.video }}<li><a href="{{.}}" target="_blank" rel="noopener noreferrer">Video</a></li>{{ end }}
+</ul>
+
+{{ .Content }}
+
+{{ end }}
