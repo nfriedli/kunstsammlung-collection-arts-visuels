@@ -178,8 +178,8 @@ footer {
 
 /* Sous titre */
 
-.subtitle {
-  padding-inline: 1rem;
+div.subtitle {
+  padding: 1rem;
 }
 
 /* Liste de boutons */

@@ -39,8 +39,8 @@
         <article>
             <header>
                 <h1>{{ block "title" .}}{{ .Title }} {{ end }}</h1>
-                <span class="subtitle">{{ with .Params.oeuvre }}<em>{{ . }}</em>{{ end }}
-                {{ with .Params.annee }}({{ . }}){{ end }}</span>
+                <div class="subtitle">{{ with .Params.oeuvre }}<em>{{ . }}</em>{{ end }}
+                {{ with .Params.annee }}({{ . }}){{ end }}</div>
             </header>
 
             <div class="content">
